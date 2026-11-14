@@ -1,0 +1,29 @@
+{
+  "product": "雲端",
+  "company": "雲阁科技工作室",
+  "author": "BlackTuanzi",
+  "updatedAt": "2026-11-14T23:38:16.102Z",
+  "note": "本目录只保存构建产物与清单；安装包本身被 .gitignore 排除。",
+  "releases": [
+    {
+      "version": "1.2.0-beta.12",
+      "builtAt": "2026-11-14T23:34:39.305Z",
+      "files": [
+        {
+          "kind": "便携版",
+          "name": "雲端-1.2.0-beta.12-便携版.exe",
+          "size": 110439439,
+          "sizeText": "105.3 MB",
+          "sha256": "a942cad68fa222483bc439e3b5328e5a5b7fdc946fb9b0c7e315610872d6fa5a"
+        },
+        {
+          "kind": "安装版",
+          "name": "雲端-1.2.0-beta.12-安装版.exe",
+          "size": 121460324,
+          "sizeText": "115.8 MB",
+          "sha256": "8170821747c668582f68f7c02f274fce3583ae1c89145bdff3832d23cae71c89"
+        }
+      ]
+    }
+  ]
+}
