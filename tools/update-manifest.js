@@ -80,11 +80,16 @@ function fmtSize(bytes) {
     });
   });
 
+  const latest = entries.reduce(function (acc, e) {
+    return e.mtime > acc ? e.mtime : acc;
+  }, entries[0].mtime);
+
   const manifest = {
     product: '雲端',
     company: '雲阁科技工作室',
     author: 'BlackTuanzi',
-    updatedAt: new Date().toISOString(),
+    // 取安装包里最新的构建时间，保证重复执行不产生无意义的 diff
+    updatedAt: latest.toISOString(),
     note: '本目录只保存构建产物与清单；安装包本身被 .gitignore 排除。',
     releases: Array.from(byVersion.values())
   };

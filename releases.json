@@ -2,7 +2,7 @@
   "product": "雲端",
   "company": "雲阁科技工作室",
   "author": "BlackTuanzi",
-  "updatedAt": "2026-11-14T23:38:16.102Z",
+  "updatedAt": "2026-11-14T23:35:23.138Z",
   "note": "本目录只保存构建产物与清单；安装包本身被 .gitignore 排除。",
   "releases": [
     {
